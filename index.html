@@ -1,0 +1,92 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Answer is...</title>
+        <style>
+@font-face {
+    font-family: piedra-regular;
+    src: url(FOnts/Piedra/Piedra-Regular.ttf);
+    }
+@font-face {
+    font-family: montserrat;
+    src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+    }
+
+body {
+        background: linear-gradient(45deg, #0057FF, #0094FF , #0057FF);
+     }
+
+h1  {
+        color: #FCDAFB;
+        text-align: center;
+        font-family: piedra-regular;
+        font-size: 8vw;
+        padding: 40px 40px;
+    }
+
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+        float:bottom;
+      }
+
+button  {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FCDAFB;
+        border: none;
+        color: #0094FF;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: montserrat;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+        </style>
+    </head>
+    <body></body>
+    <H1 ">SHOULD I DO IT?</H1>
+    <button onclick="randomLink();OpenInNewTab();">Should I?</button>
+</br>
+    <img src="images/thinking.png" width="40%" class="center">
+    <script type="text/javascript">
+
+
+    var randomLink = function () {
+
+        // first create an array of links
+        var links = [
+            "answer-do-it.html",
+            "answer-dont-do-it.html"
+        ];
+
+        // then work out the maximum random number size
+        // by counting the number of links in the array
+        var max = (links.length)
+
+        // now generate a random number
+        var randomNumber = Math.floor(Math.random()*max);
+
+        // use that random number to retrieve a link from the array
+        var link = links[randomNumber];
+
+        // change the location of the window object
+        window.location = link;
+
+        // Opens a new tab.
+        function OpenInNewTab(url) {
+        var win = window.open(url, '_blank');
+         win.focus();
+}
+    }
+    </script>
+    </body>
+</html>
