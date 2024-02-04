@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer is...</title>
+    <style>
+        @font-face {
+            font-family: piedra-regular;
+            src: url(Piedra-Regular.ttf);
+        }
+        @font-face {
+        font-family: montserrat;
+      src: url(Montserrat-VariableFont_wght.ttf);
+    }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg, #FF8A00, #FFB800, #FF8A00);
+            background-size: cover;
+          }
+    h1  {
+        color: #FCDAFB;
+        text-align: center;
+        font-family: piedra-regular;
+        size: 8vw;
+        padding: 40px 40px;
+    }
+        h2 {
+        color: #FCDAFB;
+        text-align: center;
+        font-family: montserrat;
+    }  
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+                </style>
+</head>
+<body>
+    <h1>LET'S SEE</h1>
+    <h2>ask in your 3rd whatsapp conversation</h2>
+   <img src="ask-in-a-conv.png" width="50%">
+</body>
+</html>
