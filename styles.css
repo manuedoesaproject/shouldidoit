@@ -1,0 +1,90 @@
+h1  {
+    color: #FCDAFB;
+    text-align: center;
+    font-family: Kode Mono;
+    font-size: 3rem;  
+    margin-top: 2rem;      
+    }
+h2 {
+    color: #FCDAFB;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30rem;
+    text-align: center;
+    font-size: 1,5rem;     
+    font-family: Kode Mono;
+    margin-top: 2rem;
+    } 
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    height: 40%;
+    }    
+
+ button  {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border: none;
+    background-color: #FCDAFB;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Kode Mono;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px #FCDAFB;
+    padding: 1rem;
+    }
+
+.body-letsee {
+    background: linear-gradient(25deg, #ffbb00, #d6a800, #ffbb00, #d6a800,#ffbb00, #d6a800,#ffbb00, #d6a800,#ffbb00);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    }
+
+.body-dont {
+    background: linear-gradient(25deg, #FF0000, #FF007A, #FF0000,#FF007A, #FF0000, #FF007A, #FF0000,#FF007A, #FF0000);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    }
+
+.button-letsee {
+    color: #d6a800;
+    }
+
+.body-doit {
+    background: linear-gradient(25deg, #0a9624, #04ad6f,#0a9624, #04ad6f,#0a9624, #04ad6f,#0a9624, #04ad6f, #0a9624);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    }
+    
+.body-shouldi {
+    background: linear-gradient(25deg, #0057FF, #0094FF,#0057FF, #0094FF,#0057FF, #0094FF,#0057FF, #0094FF, #0057FF);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    }    
+
+.button-letsee {
+    color: #ffbb00;
+    }
+    
+.button-doit {
+    color: #0a9624;
+    }
+
+.button-dont {
+    color: #FF007A;
+    }
+
+.button-shouldi {
+    color: #0057FF;
+    }
+        

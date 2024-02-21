@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <title>should I do it?</title>
+</head>
+<body class="body-shouldi">
+    <h1>should I do it?</h1>
+    <h2>let's figure it out</h2>
+    <img src="should-i.png">
+    <button class="button-shouldi" onclick="randomLink();OpenInNewTab();">go go go</button>
+    
+    <script type="text/javascript">
+
+
+        var randomLink = function () {
+    
+            // first create an array of links
+            var links = [
+                "do-it.html",
+                "dont-do-it.html",
+                "do-it.html",
+                "dont-do-it.html",
+                "do-it.html",
+                "dont-do-it.html",
+                "lets-see-closest.html",
+                "lets-see-whatsapp.html"
+            ];
+    
+            // then work out the maximum random number size
+            // by counting the number of links in the array
+            var max = (links.length)
+    
+            // now generate a random number
+            var randomNumber = Math.floor(Math.random()*max);
+    
+            // use that random number to retrieve a link from the array
+            var link = links[randomNumber];
+    
+            // change the location of the window object
+            window.location = link;
+    
+            // Opens a new tab.
+            function OpenInNewTab(url) {
+            var win = window.open(url, '_blank');
+            win.focus();
+            }
+        }
+        </script>
+        </body>
+</html>
